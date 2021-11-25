@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_conversion_n_by_shawaz_bajwa"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/EnterTemp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_temperature"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/CtoF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/celcuis_to_farhenheit"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/FtoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/farhenheit_to_celcuis"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"   />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0_degree"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+</LinearLayout>

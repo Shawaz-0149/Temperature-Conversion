@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Temperature Conversion</string>
+    <string name="give_the_temperature">Give the temperature</string>
+    <string name="submit">Submit</string>
+    <string name="f_c"><![CDATA[F->C]]></string>
+    <string name="c_f"><![CDATA[C->F]]></string>
+    <string name="convert">Convert</string>
+    <string name="temperature_conversion_n_by_shawaz_bajwa">Temperature Conversion \n By Shawaz Bajwa</string>
+    <string name="enter_temperature">Enter Temperature</string>
+    <string name="celcuis_to_farhenheit">Celcuis to Farhenheit</string>
+    <string name="farhenheit_to_celcuis">Farhenheit to Celcuis</string>
+    <string name="_0_degree">0 Degree</string>
+</resources>
